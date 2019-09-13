@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsReader", "NewsReader.csproj", "{F3EE4FBA-C3F0-477E-AEEF-44269EF2F736}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIUnitTest", "APIUnitTest\APIUnitTest.csproj", "{FE9B6867-BD04-4B7E-9A9A-A42215B6C8BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3EE4FBA-C3F0-477E-AEEF-44269EF2F736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EE4FBA-C3F0-477E-AEEF-44269EF2F736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EE4FBA-C3F0-477E-AEEF-44269EF2F736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EE4FBA-C3F0-477E-AEEF-44269EF2F736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9B6867-BD04-4B7E-9A9A-A42215B6C8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9B6867-BD04-4B7E-9A9A-A42215B6C8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9B6867-BD04-4B7E-9A9A-A42215B6C8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9B6867-BD04-4B7E-9A9A-A42215B6C8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F57394A-8B95-4ECC-9CB2-7C00C099A969}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<h1>News Reader</h1>
+
+<p *ngIf="!stories"><em>Loading...</em></p>
+<table class='table table-striped' *ngIf="stories">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Author</th>
+      <th>Title</th>
+      <th>Url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let story of stories">
+      <td>{{ story.id }}</td>
+      <td>{{ story.by }}</td>
+      <td>{{ story.title }}</td>
+      <td><a href="{{ story.url }}" target="_blank">{{ story.url }}</a></td>
+    </tr>
+  </tbody>
+</table>
